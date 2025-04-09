@@ -19,12 +19,14 @@ lib64/
 parts/
 sdist/
 var/
+logs/
 wheels/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
+*.jar
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -129,6 +131,7 @@ celerybeat.pid
 
 # Environments
 .env
+*.json
 .venv
 env/
 venv/
